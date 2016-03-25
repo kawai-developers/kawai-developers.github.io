@@ -5,3 +5,15 @@
 	background-color: rgba(255,255,255,0.5);
 	height:300px;
 }
+
+@media screen and (max-width: 400px){
+	.nekomimi-bg{
+		height:100px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.nekomimi-bg{
+		height:200px;
+	}
+}
