@@ -1,20 +1,21 @@
 .nekomimi-bg{
 	background-image:url('../images/colorful-cosmos-abstract-website-header.jpg');
-	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: rgba(255,255,255,0.5);
-	height:300px;
 }
 
-@media screen and (max-width: 400px){
-	.nekomimi-bg{
-		height:100px;
-	}
+.descritprion{
+	font-size:1.2em;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	.nekomimi-bg{
+		background-image:url('../images/colorful-cosmos-abstract-website-header.small.jpg');
 		height:200px;
+		font-size:0.9rem!important;
+	}
+	.descritprion{
+		font-size:1.1em;
 	}
 }
 
