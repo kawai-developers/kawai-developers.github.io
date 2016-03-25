@@ -1,13 +1,12 @@
+/*
 .nekomimi-bg{
 	background-image:url('../images/colorful-cosmos-abstract-website-header.jpg');
 	background-repeat: no-repeat;
 	background-color: rgba(255,255,255,0.5);
 }
+*/
 
-.descritprion{
-	font-size:1.2em;
-}
-
+/*
 @media screen and (max-width: 600px){
 	.nekomimi-bg{
 		background-image:url('../images/colorful-cosmos-abstract-website-header.small.jpg');
@@ -27,4 +26,65 @@
 	display:inline;
 	font-size: 2em;
 	margin:5px;
+}
+*/
+
+h1 {
+	font-size:2.2em;
+}
+h2 {
+	color: #3D4600;
+	font-size: 4em;
+  font-weight: 100;
+}
+p {
+	font-weight: 300;
+}
+
+body {
+	background-color: #fffff9;
+}
+
+.header {
+	border-bottom: #3D4600;
+  border-bottom-style: dashed;
+	border-bottom-width: 2px;
+}
+
+.description{
+	font-size:1.1em;
+}
+
+.menu {
+	font-size:1.1em;
+}
+
+
+.what_we_are {
+	  background:url("../images/stars1.png") repeat;
+		padding: 100px 0px;
+}
+
+.what_we_are blockquote {
+  border-left: 5px solid #C8DF79;
+}
+
+
+.projects {
+	padding: 100px 0px;
+}
+
+.projects h2 {
+	border-bottom: 5px solid #C8DF79;
+	padding-bottom: 10px;
+	margin-bottom: 60px;
+	/*margin-top: -30px;*/
+}
+
+.proj_icon {
+  padding: 0px 40px;
+}
+
+.proj_detail {
+  padding: 0px 60px;
 }
