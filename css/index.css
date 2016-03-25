@@ -17,3 +17,13 @@
 		height:200px;
 	}
 }
+
+.webfont-link{
+	color:#000;
+}
+
+.inline-list li{
+	display:inline;
+	font-size: 2em;
+	margin:5px;
+}
