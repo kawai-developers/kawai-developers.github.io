@@ -37,12 +37,26 @@ h2 {
 	font-size: 4em;
   font-weight: 100;
 }
+
+h3 {
+	color: #3D4600;
+	font-size: 1.9em;
+  font-weight: 100;
+}
+
+h4 {
+	color: #3D4600;
+	font-size: 1.6em;
+  font-weight: 100;
+	margin-top: -5px;
+}
+
 p {
 	font-weight: 300;
 }
 
 body {
-	background-color: #fffff9;
+	background-color: #fffffb;
 }
 
 .header {
@@ -50,9 +64,16 @@ body {
   border-bottom-style: dashed;
 	border-bottom-width: 2px;
 }
+.header img {
+	max-width: 320px;
+	margin-top:10px;
+	margin-left: 1px;
+
+}
 
 .description{
 	font-size:1.1em;
+	padding-left: 20px;
 }
 
 .menu {
@@ -87,4 +108,33 @@ body {
 
 .proj_detail {
   padding: 0px 60px;
+}
+
+.about_us {
+	/*
+	background:url("../images/stars1.png") repeat;
+	*/
+	background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-70deg, #B8EAF9, #FFFAA4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-70deg, #B8EAF9, #FFFAA4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-70deg, #B8EAF9, #FFFAA4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-70deg, #B8EAF9, #FFFAA4); /* Standard syntax */
+	padding: 100px 0px;
+}
+
+.about_us li {
+	margin: 50px 1% 0px 1%;
+	max-width: 30%;
+	display: inline-table;
+
+}
+
+.about_us img {
+	width: 180px;
+}
+
+.line {
+	border: 3px solid #C8DF79;
+	width: 300px;
+	margin: auto;
 }
