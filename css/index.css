@@ -46,13 +46,14 @@ h3 {
 
 h4 {
 	color: #3D4600;
-	font-size: 1.6em;
+	font-size: 1.4em;
   font-weight: 100;
 	margin-top: -5px;
 }
 
 p {
 	font-weight: 300;
+	color: #020
 }
 
 body {
@@ -62,7 +63,7 @@ body {
 .header {
 	border-bottom: #3D4600;
   border-bottom-style: dashed;
-	border-bottom-width: 2px;
+	border-bottom-width: 1px;
 }
 .header img {
 	max-width: 320px;
@@ -80,19 +81,22 @@ body {
 	font-size:1.1em;
 }
 
-
 .what_we_are {
 	  background:url("../images/stars1.png") repeat;
 		padding: 100px 0px;
+}
+.what_we_are_row {
+	max-width: 1200px;
 }
 
 .what_we_are blockquote {
   border-left: 5px solid #C8DF79;
 }
 
-
 .projects {
 	padding: 100px 0px;
+	max-width: 1200px;
+  margin: auto;
 }
 
 .projects h2 {
@@ -100,6 +104,10 @@ body {
 	padding-bottom: 10px;
 	margin-bottom: 60px;
 	/*margin-top: -30px;*/
+}
+
+.project{
+	padding-top: 50px;
 }
 
 .proj_icon {
@@ -122,19 +130,49 @@ body {
 	padding: 100px 0px;
 }
 
-.about_us li {
-	margin: 50px 1% 0px 1%;
-	max-width: 30%;
-	display: inline-table;
+.profiles {
+	max-width: 1200px;
+	margin: auto;
 
 }
 
-.about_us img {
+.profile {
+	margin: 50px 1% 0px 1%;
+	max-width: 30%;
+  display: inline-table;
+}
+.names {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	width: 220px;
+}
+
+.prof_pic {
 	width: 180px;
 }
 
+.footer {
+	padding-top: 30px;
+	max-width: 1200px;
+	margin: auto;
+	border-top: #3D4600;
+  border-top-style: dashed;
+	border-top-width: 1px;
+}
+
+.footer button {
+	height: 37px;
+	width: 38px;
+	border-radius: 50%;
+	border-style: dashed;
+	background-image: none;
+	background-color: #F5F8AF;
+	margin-bottom: 15px;
+}
+
+
 .line {
-	border: 3px solid #C8DF79;
+	border: 2px solid #C8DF79;
 	width: 300px;
 	margin: auto;
 }

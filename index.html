@@ -7,6 +7,8 @@
   <meta name="description" content="Kawai Developers:
   The theam that brings you free, cute and open source software!" />
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <!-- Optional theme -->
@@ -17,28 +19,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/index.css">
-
 </head>
-<body>
 
+<body>
 	<div class = "container-fluid">
 		<!--header-->
-    <div class = "row header">
+    <div class = "row header" id="header">
       <div class ="col-md-12">
-          <!--<h1>Kawai Developers</h1>-->
-					  <img src="./images/logo.svg">
+        <!--<h1>Kawai Developers</h1>-->
+				<a href="#header"><img src="./images/logo.svg"> </a>
       </div>
       <div class ="col-md-8 col-sm-8 col-xs-12 description">
         <p>We make nothing special, we just bring you free, cute and
           open source software.</p>
       </div>
       <div class ="col-md-4 col-sm-4 col-xs-12 text-left menu">
-        <p > about us | projects | contact</p>
+        <p >
+					<a href="#about_us">about us</a> |
+					<a href="#projects">projects</a> |
+					<a href="#header">contact </a>
+				</p>
       </div>
     </div>
 		<!--what_we_are-->
     <div class = "row what_we_are">
-      <div class="col-md-9 col-md-offset-2" >
+      <div class="col-md-9 col-md-offset-2 what_we_are_row" >
         <h2> What we are </h2>
         <blockquote>
           <p>We are a bunch of designers and developers with a
@@ -48,7 +53,7 @@
       </div>
     </div>
 		<!--projects-->
-    <div class = "row projects">
+    <div class = "row projects" id="projects">
       <div class="col-md-3 col-md-offset-7 col-sm-3 col-sm-offset-7 text-right" >
         <h2> Projects </h2>
       </div>
@@ -67,41 +72,90 @@
           </br>  </br>The game is open source, licenced under Apache 2 licence.
           </p>
           <div class="btn text_right">
-             <a href="https://github.com/pc-magas/faster" class="button">
+             <a href="https://github.com/pc-magas/faster">
                Fork us <i class="fa fa-github"></i> </a>
           </div>
+					<div>
+						<a href="">
+							More <i class="glyphicon glyphicon-menu-right" aria-hidden="true"></i>
+						</a>
+					</div>
         </div>
       </div>
+			<div class="row text-center project">
+				<h3> more to come...</h3>
+			</div>
   	</div>
 		<!--about us-->
-  	<div class = "row about_us">
+  	<div class = "row about_us" id="about_us">
 			<div class ="col-md-12 text-center">
 				<h2> Who we are </h2>
 				<div class="line"></div>
 			</div>
 
-			<ul class="list-inline text-center">
-  			<li>	<img class="img-circle" src= "./images/dimitrios.png">
-					<h3> Dimitrios Desyllas </h3> <h4> developer</h4>
+			<ul class="text-center profiles">
+  			<li class="profile">
+					<img class="img-circle prof_pic" src= "./images/dimitrios.png">
+					<img class="names" src= "./images/name_dimitrios.svg">
+					<h4> developer</h4>
 					<p>Dimitrios is a web developer, a free (libre) software and linux
 						enthusiast. He loves software development, japaneese culure and
 						animes. He also loves to learn new free and open souce technologies
 						and developing software with them.</p>
+					<p>Available on:
+							<ul class="list-inline">
+								<li ><a href="https://librenet.gr/people/399f141057b80132362f23b06b485576">
+									Diaspora*</a></li>
+								<li><a href="https://github.com/pc-magas?tab=repositories" class="webfont-link">
+									<i class="fa fa-github" ></i></a></li>
+								<li><a href="https://www.linkedin.com/in/ddesillas?trk=nav_responsive_tab_profile" class="webfont-link">
+									<i class="fa fa-linkedin"></i></a></li>
+								<li><a href="http://pcmagas.wordpress.com" class="webfont-link">
+									<i class="fa fa-wordpress"></i></a></li>
+						 </ul>
+						</p>
 				</li>
-				<li>	<img class="img-circle" src= "./images/dimitrios.png">
-					<h3> Andreas Houkas</h3> <h4>  developer</h3>
+				<li class="profile">
+					<img class="img-circle prof_pic" src= "./images/andreas.png">
+					<img class="names" src= "./images/name_andreas.svg">
+					<h4>  developer</h3>
 					<p> lalals jdshfojsdl  jsfedkn alals jdshfojsdl  jsfedkn alals jdshfoj
 						sdl  jsfedkn alals jdshfojsdl  jsfedkn alals jdshfojsdl  jsfedkn
 						alals jdshfojsdl  jsfedkn</p>
 				</li>
-				<li>	<img class="img-circle" src= "./images/dimitrios.png">
-					<h3> Katerina Brani</h3> <h4> designer</h3>
+				<li class="profile">
+						<img class="img-circle prof_pic" src= "./images/kat.png">
+						<img class="names" src= "./images/name_kat.svg">
+						<h4> designer</h3>
 					<p> gamati designer ti na leme twra exei k hlio edw sthn fush peinasa
 					paw n pswnisw. kale ti hsuxia einai auth</p>
+					<p>Available on:
+						<ul class="list-inline">
+							<li><a href="https://github.com/KaterinaBr" class="webfont-link">
+								<i class="fa fa-github" ></i></a></li>
+							<li><a href="hhttps://www.linkedin.com/in/katerinabrani?trk=hp-identity-name" class="webfont-link">
+								<i class="fa fa-linkedin"></i></a></li>
+				 	</ul>
+			 	</p>
 				</li>
 			</ul>
-
 		</div>
+
+		<!--footer-->
+    <div class = "row footer">
+				<div class ="col-md-12 text-center">
+					<button type="button" class="btn btn-default" aria-label="go to the top">
+						<a href="#header">
+							<span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+						</a>
+					</button>
+      		<ul class="list-inline ">
+						<li> site map</li>
+						<li> about us </li>
+						<li> contact</li>
+					</ul>
+					-|  Designed by Dimitrios Desyllas and Katerina Brani  |-
+    </div>
 
 	</div>
 </body>
